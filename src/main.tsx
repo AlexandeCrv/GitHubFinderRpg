@@ -8,11 +8,11 @@ import Home from "../src/routes/Home.tsx";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/GitHubFinderRpg",
     element: <App />,
     children: [
       {
-        path: "/GitHubFinderRpg",
+        path: "/",
         element: <Home />,
       },
     ],
