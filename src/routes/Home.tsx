@@ -1,4 +1,4 @@
-import React, { useState, KeyboardEvent } from "react";
+import { useState } from "react";
 import { UserProps } from "../types/user";
 import "./Home.css";
 import logo from "../assets/logo.png";

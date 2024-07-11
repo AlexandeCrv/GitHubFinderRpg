@@ -1,7 +1,7 @@
 type SearchProps = {
   gethub: (username: string) => Promise<void>;
 };
-import React, { useState, KeyboardEvent } from "react";
+import { useState, KeyboardEvent } from "react";
 import "./Search.css";
 import { FaMagnifyingGlass } from "react-icons/fa6";
 
