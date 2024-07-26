@@ -28,9 +28,11 @@ const Search = ({ gethub }: SearchProps) => {
             type="text"
             onKeyDown={enter}
           />
-          <button onClick={() => gethub(userName)}>
-            <FaMagnifyingGlass />
-          </button>
+          <div className="searchbutton">
+            <p onClick={() => gethub(userName)}>
+              <FaMagnifyingGlass />
+            </p>
+          </div>
         </div>
       </div>
     </div>

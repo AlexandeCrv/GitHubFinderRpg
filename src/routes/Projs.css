@@ -1,0 +1,293 @@
+@font-face {
+  font-family: Gumball;
+  src: url(/src/assets/fonts/Gumball.ttf);
+}
+
+.projsroute {
+  overflow: hidden;
+  height: 1000px;
+}
+.explore {
+  width: 400px;
+}
+.logoprojs {
+  width: 800px;
+}
+.logos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+}
+
+.abaDeProjetos {
+  background-color: rgba(0, 0, 0, 0.247);
+  margin: auto;
+  width: 1300px;
+  height: 790px;
+  border-radius: 10px;
+  color: white;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+}
+
+.fundoprojs {
+  width: 100%;
+  height: 900px;
+  background-image: url(../assets/fundo.png);
+  background-size: cover;
+}
+.lenguageproj {
+  font-size: 20px;
+}
+.abaindividual {
+  width: 250px;
+  height: 120px;
+  border: solid 1px white;
+  text-align: center;
+}
+.language {
+  display: flex;
+  justify-content: center;
+}
+.divnameproj {
+  height: 30px;
+  background-color: #2b1800;
+}
+.estrelaefork {
+  height: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+.todasabas {
+  width: 1300px;
+  height: 790px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.nomeexplore {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nomeproj {
+  font-family: Gumball;
+  color: #e4ff36;
+  font-weight: 200;
+  margin-top: px;
+  font-size: 50px;
+}
+
+.voltar {
+  width: 60px;
+  font-size: 15px;
+  position: absolute;
+}
+.buttonproj {
+  position: absolute;
+  display: inline-block;
+  margin: 5px;
+  z-index: 2;
+  top: 30px;
+  left: 20px;
+}
+
+.buttonproj p,
+label {
+  color: black;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+
+  text-align: center;
+  text-decoration: none;
+  background-color: #ffa12b;
+  display: block;
+  position: relative;
+  padding: 10px 20px;
+
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  text-shadow: 0px 1px 0px #000;
+  filter: dropshadow(color=#000, offx=0px, offy=1px);
+
+  -webkit-box-shadow: inset 0 1px 0 #ffe5c4, 0 10px 0 #915100;
+  -moz-box-shadow: inset 0 1px 0 #ffe5c4, 0 10px 0 #915100;
+  box-shadow: inset 0 1px 0 #ffe5c4, 0 10px 0 #915100;
+
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.buttonproj p:active {
+  top: 10px;
+  background-color: #f78900;
+
+  -webkit-box-shadow: inset 0 1px 0 #ffe5c4, inset 0 -3px 0 #915100;
+  -moz-box-shadow: inset 0 1px 0 #ffe5c4, inset 0 -3pxpx 0 #915100;
+  box-shadow: inset 0 1px 0 #ffe5c4, inset 0 -3px 0 #915100;
+}
+.buttonproj label:active {
+  top: 10px;
+  background-color: #f78900;
+
+  -webkit-box-shadow: inset 0 1px 0 #ffe5c4, inset 0 -3px 0 #915100;
+  -moz-box-shadow: inset 0 1px 0 #ffe5c4, inset 0 -3pxpx 0 #915100;
+  box-shadow: inset 0 1px 0 #ffe5c4, inset 0 -3px 0 #915100;
+}
+
+.buttonproj:after {
+  content: "";
+  height: 100%;
+  width: 100%;
+  padding: 4px;
+  position: absolute;
+  bottom: -15px;
+  left: -4px;
+  z-index: -1;
+  background-color: #2b1800;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+.acode {
+  font-size: 15px;
+  width: 70px;
+  height: 20px;
+}
+.buttonabaindiv {
+  position: relative;
+  display: inline-block;
+  margin: 10px;
+}
+.estrela {
+  font-size: 18px;
+}
+.buttonabaindiv p,
+.acode {
+  color: black;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+
+  text-align: center;
+  text-decoration: none;
+  background-color: #ffa12b;
+  display: block;
+  position: relative;
+  width: 60px;
+
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  text-shadow: 0px 1px 0px #000;
+  filter: dropshadow(color=#000, offx=0px, offy=1px);
+
+  -webkit-box-shadow: inset 0 1px 0 #ffe5c4, 0 10px 0 #915100;
+  -moz-box-shadow: inset 0 1px 0 #ffe5c4, 0 10px 0 #915100;
+  box-shadow: inset 0 1px 0 #ffe5c4, 0 10px 0 #915100;
+
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.buttonabaindiv p:active {
+  top: 10px;
+  background-color: #f78900;
+
+  -webkit-box-shadow: inset 0 1px 0 #ffe5c4, inset 0 -3px 0 #915100;
+  -moz-box-shadow: inset 0 1px 0 #ffe5c4, inset 0 -3pxpx 0 #915100;
+  box-shadow: inset 0 1px 0 #ffe5c4, inset 0 -3px 0 #915100;
+}
+.buttonabaindiv .acode:active {
+  top: 10px;
+  background-color: #f78900;
+
+  -webkit-box-shadow: inset 0 1px 0 #ffe5c4, inset 0 -3px 0 #915100;
+  -moz-box-shadow: inset 0 1px 0 #ffe5c4, inset 0 -3pxpx 0 #915100;
+  box-shadow: inset 0 1px 0 #ffe5c4, inset 0 -3px 0 #915100;
+}
+
+.buttonabaindiv:after {
+  content: "";
+  height: 100%;
+  width: 100%;
+  padding: 4px;
+  position: absolute;
+  bottom: -15px;
+  left: -4px;
+  z-index: -1;
+  background-color: #2b1800;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+.divlanguage {
+  display: flex;
+  justify-content: space-around;
+}
+.btnestrela {
+  position: relative;
+  display: inline-block;
+  margin: 10px;
+}
+.btnestrela p {
+  color: black;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+
+  text-align: center;
+  text-decoration: none;
+  background-color: #ffa12b;
+  display: block;
+  position: relative;
+  width: 60px;
+
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  text-shadow: 0px 1px 0px #000;
+  filter: dropshadow(color=#000, offx=0px, offy=1px);
+
+  -webkit-box-shadow: inset 0 1px 0 #ffe5c4, 0 10px 0 #915100;
+  -moz-box-shadow: inset 0 1px 0 #ffe5c4, 0 10px 0 #915100;
+  box-shadow: inset 0 1px 0 #ffe5c4, 0 10px 0 #915100;
+
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.btnestrela p:active {
+  top: 10px;
+  background-color: #f78900;
+
+  -webkit-box-shadow: inset 0 1px 0 #ffe5c4, inset 0 -3px 0 #915100;
+  -moz-box-shadow: inset 0 1px 0 #ffe5c4, inset 0 -3pxpx 0 #915100;
+  box-shadow: inset 0 1px 0 #ffe5c4, inset 0 -3px 0 #915100;
+}
+
+.btnestrela:after {
+  content: "";
+  height: 100%;
+  width: 100%;
+  padding: 4px;
+  position: absolute;
+  bottom: -15px;
+  left: -4px;
+  z-index: -1;
+  background-color: #2b1800;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.staratack {
+  width: 200px;
+  height: 90px;
+  line-height: 15px;
+}
+.abaestrela {
+  display: flex;
+}
