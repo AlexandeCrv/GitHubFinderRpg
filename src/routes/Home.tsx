@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { UserProps } from "../types/user";
+
 import { Link } from "react-router-dom";
 
 import "./Home.css";
@@ -39,7 +39,6 @@ const Home = () => {
   const [isOpenFdeff, setisOpenFdeff] = useState(false);
   const [imgbbt, setimgbbt] = useState("");
   const { user, setUser, setRepos } = useGitHub();
-  const [proj, setProj] = useState<UserProps | null>(null);
 
   const getthub = async (username: string) => {
     try {
