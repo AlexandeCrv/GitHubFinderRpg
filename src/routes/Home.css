@@ -100,7 +100,10 @@ figure {
   animation: cloud 180s linear infinite;
   left: 30vw;
 }
-
+.absolute {
+  width: 35px;
+  border-right: solid white 1px;
+}
 img {
   vertical-align: middle;
   max-width: 100%;
@@ -124,6 +127,14 @@ img {
   text-align: center;
   z-index: 1;
   position: absolute;
+}
+.fotos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 500px;
+
+  margin-top: 160px;
 }
 .fotos {
   display: flex;
@@ -192,6 +203,7 @@ img {
   border: 2px solid white;
   width: 200px;
 }
+
 .fontsize:hover {
   transform: scale(1.13);
 }
@@ -225,6 +237,7 @@ img {
   margin-top: 10px;
   border-radius: 10px;
 }
+
 .segefolow {
   display: flex;
   justify-content: space-around;
@@ -232,6 +245,7 @@ img {
   width: 530px;
   margin: auto;
 }
+
 .folow {
   margin-top: 10px;
 }
@@ -308,6 +322,7 @@ a {
   border-bottom-left-radius: 7px;
   border-top-left-radius: 7px;
 }
+
 .absolute {
   width: 35px;
   border-right: solid white 1px;
@@ -376,4 +391,243 @@ label {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
+}
+
+@media screen and (min-width: 1536px) {
+  .resphub {
+    height: 750px;
+    margin-top: 20px;
+
+    width: 750px;
+    right: 390px;
+    font-size: 25px;
+    background-image: url(/src/assets/pergaminhomainn.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    color: black;
+    text-align: center;
+    z-index: 1;
+    position: absolute;
+  }
+  .sujestaofdeff {
+    width: 350px;
+    height: 430px;
+    position: absolute;
+    color: white;
+    left: 1150px;
+    top: 500px;
+    border-radius: 7px;
+    z-index: 1;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .fundo {
+    width: 100%;
+    height: 1056px;
+    position: absolute;
+  }
+  .resphub {
+    margin-top: 20px;
+
+    width: 620px;
+    right: 0px;
+    font-size: 25px;
+    background-image: url(/src/assets/pergaminhomainn.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    color: black;
+    text-align: center;
+    z-index: 1;
+    position: absolute;
+  }
+
+  .fotos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 400px;
+
+    margin-top: 130px;
+  }
+  .fotohub {
+    width: 100px;
+
+    border-radius: 100%;
+  }
+  .nomehub {
+    line-height: 30px;
+    width: 450px;
+    margin: auto;
+
+    margin-top: 10px;
+  }
+  .infoshub {
+    margin-top: 5px;
+    line-height: 30px;
+    height: 290px;
+    width: 620px;
+  }
+  .exphub {
+    background-color: #222435;
+
+    height: 50px;
+    width: 400px;
+    border-radius: 10px;
+
+    margin: auto;
+    position: relative;
+  }
+  .barra {
+    margin-top: 10px;
+  }
+  .barraxp {
+    height: 100%;
+    color: white;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    font-size: 13px;
+    margin-top: 10px;
+  }
+  .barralateral {
+    border-right: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 28px;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+  }
+  .nivel {
+    margin-bottom: 10px;
+  }
+  .projetosdiv {
+    margin-top: 50px;
+    border: 2px solid white;
+    width: 200px;
+    cursor: pointer;
+  }
+
+  .segefolow {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 430px;
+    margin: auto;
+  }
+
+  .sujestaofqatak {
+    width: 350px;
+    height: 430px;
+    position: absolute;
+    color: white;
+    left: -30px;
+
+    top: 960px;
+    border-radius: 7px;
+    z-index: 1;
+  }
+  .sujestaofdeff {
+    width: 350px;
+    height: 430px;
+    position: absolute;
+    color: white;
+    left: 260px;
+    top: 960px;
+    border-radius: 7px;
+    z-index: 1;
+  }
+  .infosdeff {
+    padding: 10px;
+    position: absolute;
+    z-index: 2;
+    top: 40px;
+    right: 30px;
+    width: 250px;
+    color: black;
+    font-size: 19px;
+  }
+  .infosatak {
+    padding: 10px;
+    position: absolute;
+    z-index: 2;
+    top: 40px;
+    left: 50px;
+    width: 250px;
+    color: black;
+    font-size: 19px;
+  }
+
+  .button {
+    position: relative;
+    display: inline-block;
+    margin: -5px;
+  }
+  .folow {
+    font-size: 20px;
+  }
+  .button p,
+  label {
+    color: black;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+
+    text-align: center;
+    text-decoration: none;
+    background-color: #ffa12b;
+    display: block;
+    position: relative;
+    padding: 4px;
+
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    text-shadow: 0px 1px 0px #000;
+    filter: dropshadow(color=#000, offx=0px, offy=1px);
+
+    -webkit-box-shadow: inset 0 1px 0 #ffe5c4, 0 10px 0 #915100;
+    -moz-box-shadow: inset 0 1px 0 #ffe5c4, 0 10px 0 #915100;
+    box-shadow: inset 0 1px 0 #ffe5c4, 0 10px 0 #915100;
+
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+  }
+
+  .button p:active {
+    top: 10px;
+    background-color: #f78900;
+
+    -webkit-box-shadow: inset 0 1px 0 #ffe5c4, inset 0 -3px 0 #915100;
+    -moz-box-shadow: inset 0 1px 0 #ffe5c4, inset 0 -3pxpx 0 #915100;
+    box-shadow: inset 0 1px 0 #ffe5c4, inset 0 -3px 0 #915100;
+  }
+  .button label:active {
+    top: 10px;
+    background-color: #f78900;
+
+    -webkit-box-shadow: inset 0 1px 0 #ffe5c4, inset 0 -3px 0 #915100;
+    -moz-box-shadow: inset 0 1px 0 #ffe5c4, inset 0 -3pxpx 0 #915100;
+    box-shadow: inset 0 1px 0 #ffe5c4, inset 0 -3px 0 #915100;
+  }
+
+  .button:after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    padding: 4px;
+    position: absolute;
+    bottom: -15px;
+    left: -4px;
+    z-index: -1;
+    background-color: #2b1800;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+  }
 }

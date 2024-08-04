@@ -291,3 +291,64 @@ label {
 .abaestrela {
   display: flex;
 }
+
+@media screen and (min-width: 1536px) {
+  .todasabas {
+    width: 1500px;
+  }
+  .abaDeProjetos {
+    background-color: rgba(0, 0, 0, 0.247);
+    margin: auto;
+    width: 1500px;
+    height: 790px;
+    border-radius: 10px;
+    color: white;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+  }
+}
+@media screen and (max-width: 630px) {
+  .logoprojs {
+    width: 500px;
+    margin-left: 150px;
+  }
+  .abaDeProjetos {
+    background-color: rgba(0, 0, 0, 0.682);
+    margin: auto;
+    width: 588px;
+    height: 790px;
+    border-radius: 10px;
+    color: white;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+  }
+  .todasabas {
+    width: 580px;
+    height: 790px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .fundoprojs {
+    width: 100%;
+    height: 900px;
+    background-image: url(../assets/fundo.png);
+    background-size: cover;
+  }
+  .nomeexplore {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .nomeproj {
+    font-family: Gumball;
+    color: #e4ff36;
+    font-weight: 200;
+
+    font-size: 30px;
+  }
+}
