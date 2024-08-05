@@ -92,3 +92,13 @@
   -moz-border-radius: 5px;
   border-radius: 5px;
 }
+@media screen and (max-width: 459px) {
+  .procura {
+    height: 250px;
+    width: 400px;
+    margin: auto;
+    font-size: 23px;
+    background-color: rgba(0, 0, 0, 0.31);
+    border-radius: 20px;
+  }
+}

@@ -165,7 +165,7 @@ const Home = () => {
               acordo com a quantidade seguidores que você tem, logo crescendo
               seu network!
             </p>
-            <figure>
+            <figure className="escudoespadaicon">
               <img className="escudo-espadag" src={escudog} alt="" />
             </figure>
           </div>

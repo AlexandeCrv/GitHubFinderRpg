@@ -631,3 +631,209 @@ label {
     border-radius: 5px;
   }
 }
+@media screen and (max-width: 459px) {
+  .fundo {
+    width: 100%;
+
+    position: absolute;
+  }
+  .resphub {
+    margin-top: 20px;
+
+    width: 470px;
+    right: -12px;
+    font-size: 25px;
+    background-image: url(/src/assets/pergaminhomainn.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    color: black;
+    text-align: center;
+    z-index: 1;
+    position: absolute;
+  }
+
+  .fotos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 300px;
+
+    margin-top: 100px;
+  }
+  .fotohub {
+    width: 70px;
+
+    border-radius: 100%;
+  }
+  .nomehub {
+    line-height: 14px;
+    width: 250px;
+    height: 50px;
+    margin: auto;
+
+    margin-top: 1px;
+    margin-left: 100px;
+    font-size: 15px;
+  }
+  .infoshub {
+    margin-top: 5px;
+    line-height: 30px;
+    height: 290px;
+    width: 400px;
+  }
+  .exphub {
+    background-color: #222435;
+
+    height: 30px;
+    width: 300px;
+    border-radius: 10px;
+
+    margin: auto;
+    position: relative;
+  }
+  .barra {
+    margin-top: 10px;
+    margin-left: 60px;
+  }
+  .barraxp {
+    height: 100%;
+    color: white;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    font-size: 13px;
+    margin-top: 10px;
+  }
+  .barralateral {
+    border-right: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 28px;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+  }
+  .nivel {
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+
+  .segefolow {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 320px;
+
+    font-size: 15px;
+    margin-left: 70px;
+  }
+  .folow {
+    font-size: 15px;
+  }
+
+  .sujestaofqatak {
+    width: 250px;
+
+    position: absolute;
+    color: white;
+    left: -30px;
+
+    top: 780px;
+    border-radius: 7px;
+    z-index: 1;
+  }
+  .sujestaofdeff {
+    width: 250px;
+
+    position: absolute;
+    color: white;
+    left: 200px;
+    top: 780px;
+    border-radius: 7px;
+    z-index: 1;
+  }
+  .infosdeff {
+    padding: 5px;
+    position: absolute;
+    z-index: 2;
+    top: 40px;
+    right: 5px;
+    width: 200px;
+    color: black;
+    font-size: 15px;
+
+    height: 200px;
+  }
+  .infosatak {
+    padding: 5px;
+    position: absolute;
+    z-index: 2;
+    top: 40px;
+    left: 30px;
+    width: 200px;
+    color: black;
+    font-size: 15px;
+  }
+}
+.button p,
+label {
+  color: black;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+
+  text-align: center;
+  text-decoration: none;
+  background-color: #ffa12b;
+  display: block;
+  position: relative;
+  padding: 3px;
+
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  text-shadow: 0px 1px 0px #000;
+  filter: dropshadow(color=#000, offx=0px, offy=1px);
+
+  -webkit-box-shadow: inset 0 1px 0 #ffe5c4, 0 10px 0 #915100;
+  -moz-box-shadow: inset 0 1px 0 #ffe5c4, 0 10px 0 #915100;
+  box-shadow: inset 0 1px 0 #ffe5c4, 0 10px 0 #915100;
+
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.button p:active {
+  top: 10px;
+  background-color: #f78900;
+
+  -webkit-box-shadow: inset 0 1px 0 #ffe5c4, inset 0 -3px 0 #915100;
+  -moz-box-shadow: inset 0 1px 0 #ffe5c4, inset 0 -3pxpx 0 #915100;
+  box-shadow: inset 0 1px 0 #ffe5c4, inset 0 -3px 0 #915100;
+}
+.button label:active {
+  top: 10px;
+  background-color: #f78900;
+
+  -webkit-box-shadow: inset 0 1px 0 #ffe5c4, inset 0 -3px 0 #915100;
+  -moz-box-shadow: inset 0 1px 0 #ffe5c4, inset 0 -3pxpx 0 #915100;
+  box-shadow: inset 0 1px 0 #ffe5c4, inset 0 -3px 0 #915100;
+}
+
+.button:after {
+  content: "";
+  height: 100%;
+  width: 100%;
+  padding: 4px;
+  position: absolute;
+  bottom: -15px;
+  left: -4px;
+  z-index: -1;
+  background-color: #2b1800;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
